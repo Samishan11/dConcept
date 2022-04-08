@@ -1,0 +1,10 @@
+ul li{
+    height: 60px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+i:hover{
+    transform: scale(1.5);
+    transition: .4s ease-in-out;
+}

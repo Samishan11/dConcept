@@ -1,0 +1,24 @@
+
+ul li{
+    font-size: 17px;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    height: 3px;
+    width: 0;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: white;
+}
+ul li:hover::before{
+    content: '';
+    height: 3px;
+    width: 95%;
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    background-color: white;
+    transition: .3s ease-in-out;
+}
