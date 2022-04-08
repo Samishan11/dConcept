@@ -60,3 +60,14 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     transition: .3s ease-in-out;
 }
+/*  */
+.user-photo{
+    position: relative;
+}
+.user-icon{
+    position: absolute;
+    bottom: -15px;
+    font-size: 22px ;
+    background-color:aliceblue;
+    /* left: 50%; */
+}

@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import logo from '../images/logo/dconcept.png'
+import logo from '../images/logo/logo1.png'
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import './navbar.css'
 const Navbar = () => {
@@ -47,7 +47,7 @@ const Navbar = () => {
     <>
       <nav id='navbar' style={{ background: '#6f42c1' }} className={`active ${show && 'hidden navbar fixed-top navbar-expand-lg navbar-light'}`}>
         <div className="container-fluid">
-          <a className="navbar-brand mx-5" href="#"><img className='img img-fluid' width={75} src={logo} alt="" /></a>
+          <a className="navbar-brand mx-5" href="#"><img className='img img-fluid' width={120} src={logo} alt="" /></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
@@ -60,7 +60,10 @@ const Navbar = () => {
                 <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/blog">Blogs</NavLink>
               </li>
               <li className="nav-item">
-                <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/service">Service</NavLink>
+                <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/blog">Courses</NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/service">Feeds</NavLink>
               </li>
               <li className="nav-item">
                 <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/contact">Contact Us</NavLink>
