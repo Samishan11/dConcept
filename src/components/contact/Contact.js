@@ -4,11 +4,11 @@ const Contact = () => {
     return (
         <>
             <div style={{marginTop:"100px"}} className='container bg-light pb-5'>
-                <div className='bg-secondary py-2 my-5 mx-5'>
+                <div className='primaryColor py-2 my-5 mx-5'>
                 <h1 className='text-light text-center'>Keep in touch with us?</h1>
                 </div>
                 {/*  */}
-                <div style={{ width: "50vw" }} className="container bg-white d-block mx-auto">
+                <div style={{ width: "50vw" }} className="container py-3 bg-white d-block mx-auto">
                     <form className="container validate-form">
                         <div className="row">
                             <div className="col-12 col-md-6">

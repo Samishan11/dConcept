@@ -1,0 +1,21 @@
+.course_section{
+    margin-top: 60px;
+}
+.user-photo{
+    position: relative;
+}
+.user-icon{
+    position: absolute;
+    bottom: -15px;
+    /* font-size: 40px ; */
+    background-color:aliceblue;
+    /* left: 50%; */
+}
+.s-icons{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+}
+.action_section{
+    background: rgb(199, 197, 197);
+}

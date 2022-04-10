@@ -389,13 +389,13 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="details">
-                                <h5 className="text text-dark pt-3 pb-0 mb-0">
+                                <h5 className="text px-2 text-dark pt-3 pb-0 mb-0">
                                     <strong> Gokarna Adhikari</strong>
                                 </h5>
-                                <span className="text text-muted pt-0 mt-0">
+                                <span className="text px-2 text-muted pt-0 mt-0">
                                     FullStack Developer
                                 </span>
-                                <p className="text text-dark pt-3">
+                                <p className="text px-2 text-dark pt-3">
                                     They do have all the knowledge on how thing works. They
                                     helped me to grow my account so fast.
                                 </p>
@@ -422,13 +422,13 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="details">
-                                <h5 className="text text-dark pt-3 pb-0 mb-0">
+                                <h5 className="text px-2 text-dark pt-3 pb-0 mb-0">
                                    <strong> Samishan Thapa Chhetri</strong>
                                 </h5>
-                                <span className="text text-muted pt-0 mt-0">
+                                <span className="text px-2 text-muted pt-0 mt-0">
                                     Web Developer
                                 </span>
-                                <p className="text text-dark pt-3">
+                                <p className="text px-2 text-dark pt-3">
                                     I've worked with other digital marketing teams too but i
                                     find these guys so easy and punctuate.
                                 </p>
@@ -456,12 +456,12 @@ const Home = () => {
                             </div>
                             <div className="details">
                                 <h5 className="text text-dark pt-3 pb-0 mb-0">
-                                    <strong>Manoram Baudel</strong>
+                                    <strong className='px-2'>Manoram Baudel</strong>
                                 </h5>
-                                <span className="text text-muted pt-0 mt-0">
+                                <span className="text px-2 text-muted pt-0 mt-0">
                                     Android Developer
                                 </span>
-                                <p className="text text-dark pt-3">
+                                <p className="text px-2 text-dark pt-3">
                                     They promised me to raise my sales by twice when we met
                                     and after one month they proved it easily.
                                 </p>
