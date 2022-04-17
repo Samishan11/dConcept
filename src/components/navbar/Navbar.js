@@ -53,20 +53,20 @@ const Navbar = () => {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <NavLink  activeClassName="active" className="nav-link mx-2 text-light " aria-current="page" to="/">Home</NavLink>
+              <li className="nav-item nav_link">
+                <NavLink  activeClassName="" className="nav-link mx-2 text-light" aria-current="page" to="/">Home</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/blog">Blogs</NavLink>
+              <li className="nav-item nav_link">
+                <NavLink  activeClassName="" className="nav-link mx-2 text-light" to="/blog">Blogs</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/course">Courses</NavLink>
+              <li className="nav-item nav_link">
+                <NavLink  activeClassName="" className="nav-link mx-2 text-light" to="/course">Courses</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/service">Feeds</NavLink>
+              <li className="nav-item nav_link">
+                <NavLink  activeClassName="" className="nav-link mx-2 text-light" to="/feed">Feeds</NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink  activeClassName="active" className="nav-link mx-2 text-light" to="/contact">Contact Us</NavLink>
+              <li className="nav-item nav_link">
+                <NavLink  activeClassName="" className="nav-link mx-2 text-light" to="/contact">Contact Us</NavLink>
               </li>
             </ul>
             <div className="d-flex mx-5">

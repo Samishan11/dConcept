@@ -42,3 +42,38 @@
 .c-icons{
     color: purple;
 }
+.course-img{
+    position: relative;
+}
+.course-pic{
+    width: 100%;
+    height: 25ch;
+    object-fit: cover;
+}
+.course-details{
+    width: 90%;
+    height: auto;
+    position: absolute;
+    bottom: -35px;
+}
+.premium{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background: #F7931B;
+} 
+.premium-next{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: limegreen;
+    color: white;
+}
+.premium-price{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #F7931B;
+    color: white;
+}

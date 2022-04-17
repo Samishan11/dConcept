@@ -1,9 +1,9 @@
 
-ul li{
+ul .nav_link{
     font-size: 17px;
     position: relative;
 }
-ul li::before{
+ul .nav_link::before{
     content: '';
     height: 3px;
     width: 0;
@@ -12,7 +12,7 @@ ul li::before{
     left: 5px;
     background-color: white;
 }
-ul li:hover::before{
+ul .nav_link:hover::before{
     content: '';
     height: 3px;
     width: 85%;
